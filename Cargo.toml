@@ -29,7 +29,8 @@ default = ["glutin"]
 unstable = []       # used for benchmarks
 
 [dependencies.glutin]
-version = "0.7.1"
+git = "https://github.com/cosier/glutin"
+#version = "0.7.1"
 features = []
 optional = true
 
